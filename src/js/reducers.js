@@ -1,9 +1,8 @@
 import { combineReducers } from 'redux';
-
-import groceryList from './reducers/grocery-list';
+import ui from './reducers/ui';
 
 const appReducer = combineReducers({
-    groceryList
+    ui
 });
 
 export default appReducer;
